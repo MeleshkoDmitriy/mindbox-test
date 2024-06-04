@@ -1,0 +1,10 @@
+@import '../../global.scss';
+
+.input {
+  padding: $gap;
+  outline: none;
+  border: 1px solid $colorBlack;
+  font-size: 20px;
+  border-radius: 3px;
+}
+

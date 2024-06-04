@@ -1,0 +1,16 @@
+$colorPrimary: #F5F5F5;
+$colorSecondary: #f2c7c4;
+$colorBlack: #4D4D4D;
+
+$gap: 20px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $colorBlack;
+}
+
+ul {
+  list-style: none;
+}

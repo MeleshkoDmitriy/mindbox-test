@@ -1,0 +1,34 @@
+@import '../../global.scss';
+
+.container {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+span {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.controlButton {
+  padding: 10px;
+  border: 1px solid transparent;
+  background-color: $colorPrimary;
+  cursor: pointer;
+}
+
+.chosen {
+  border: 1px solid $colorSecondary;
+  border-radius: 3px;
+}
