@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Mindbox Todos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Этот тестовый проект<b> представляет собой простое приложение для управления задачами, созданное с использованием TypeScript, React и React Hooks. Проект интегрируется с API и предоставляет функциональность для создания, просмотра и управления задачами.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функциональность
 
-## Expanding the ESLint configuration
+Приложение имеет следующие возможности:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Создание задач: Пользователи могут вводить новые задачи в поле ввода.
+2. Списки задач: Приложение отображает три отдельных списка (фильтрация):
+   - Все задачи
+   - Невыполненные задачи
+   - Выполненные задачи
+3. Удаление задач.
 
-- Configure the top-level `parserOptions` property like this:
+## Используемые технологии
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- <b>TypeScript:</b> Проект построен с использованием TypeScript, статически типизированного надмножества JavaScript, которое обеспечивает лучшую безопасность типов и улучшенный опыт разработки.
+- <b>React:</b> Приложение построено с использованием библиотеки React, которая предоставляет компонентно-ориентированную архитектуру и эффективное обновление виртуального DOM.
+- <b>Redux Toolkit (RTK Query):</b> Проект использует библиотеку Redux Toolkit для управления состоянием и запросами, которая упрощает управление приложением.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Интеграция с API
+
+Проект интегрирован с API, доступным по следующему URL:
+
+https://8838cd87b07f86ee.mokky.dev
+
+## Начало работы
+
+Чтобы запустить проект, выполните следующие шаги:
+
+1. Установите зависимости:
+
+   npm install
+
+2. Запустите сервер разработки:
+
+   npm start
+
+   Это запустит сервер разработки и откроет приложение в вашем браузере по умолчанию.
